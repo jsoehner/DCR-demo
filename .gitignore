@@ -1,3 +1,7 @@
 certs/*
 venv/*
 docker-compose.yml
+.DS_Store
+
+# Build & Supply Chain Artifacts
+oss/
