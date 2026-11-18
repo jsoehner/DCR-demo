@@ -29,9 +29,9 @@
 
 | Component / Algorithm | Type / Primitive | Key Length / Curve | Recommended Target | Provenance / Context |
 |---|---|---|---|---|
-| **`private-key@7553d6a6-678e-4170-abfc-8b3f5fe94fd3`**<br><sub>private-key@7553d6a6-678e-4170-abfc-8b3f5fe94fd3</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
-| **`private-key@e1814b9b-eeb5-4af8-928f-1a9c2c21855f`**<br><sub>private-key@e1814b9b-eeb5-4af8-928f-1a9c2c21855f</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
-| **`private-key@d694de34-bd56-4b2b-8cc4-d167f7cc574b`**<br><sub>private-key@d694de34-bd56-4b2b-8cc4-d167f7cc574b</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@a648bc0a-e933-489a-8700-4c0f46cfb1ba`**<br><sub>private-key@a648bc0a-e933-489a-8700-4c0f46cfb1ba</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@bafa792a-f4a6-4b9a-a716-def41bed3d69`**<br><sub>private-key@bafa792a-f4a6-4b9a-a716-def41bed3d69</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@63d48d85-a65a-4b39-8255-63f777efeb31`**<br><sub>private-key@63d48d85-a65a-4b39-8255-63f777efeb31</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
 | **`RSA-2048`**<br><sub>RSA-2048</sub> | algorithm / pke | 2048 | **ML-KEM-768 / Kyber (FIPS 203)** | First-Party Code (SAST/AST)<br>`setup.py`<br><br>`setup.py`<br><br>`setup.py`<br><br>`setup.py:168`<br><sub><code>self.private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:253`<br><sub><code>self.ca_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:263`<br><sub><code>srv_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:14`<br><sub><code>from cryptography.hazmat.primitives.asymmetric import rsa</code></sub> |
 
 ### 🔒 Classical Symmetric & Digest Assets
