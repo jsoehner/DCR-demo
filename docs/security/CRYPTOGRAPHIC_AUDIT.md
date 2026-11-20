@@ -29,10 +29,10 @@
 
 | Component / Algorithm | Type / Primitive | Key Length / Curve | Recommended Target | Provenance / Context |
 |---|---|---|---|---|
-| **`private-key@cb0809e2-5552-4090-bc2e-259b2705647b`**<br><sub>private-key@cb0809e2-5552-4090-bc2e-259b2705647b</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
-| **`private-key@7743e5c8-a6fa-4341-9c45-4d58e6da7ecb`**<br><sub>private-key@7743e5c8-a6fa-4341-9c45-4d58e6da7ecb</sub> | related-crypto-material / private-key | 2048 | **AES-256-GCM / ChaCha20-Poly1305 (RFC 5116 / RFC 8439)** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@eb3b62c7-7fff-432b-bff4-67641c01d580`**<br><sub>private-key@eb3b62c7-7fff-432b-bff4-67641c01d580</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@01099f77-2a16-45ef-b7c3-968716a52e29`**<br><sub>private-key@01099f77-2a16-45ef-b7c3-968716a52e29</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
 | **`RSA-2048`**<br><sub>RSA-2048</sub> | algorithm / pke | 2048 | **ML-KEM-768 / Kyber (FIPS 203)** | First-Party Code (SAST/AST)<br>`setup.py`<br><br>`setup.py`<br><br>`setup.py`<br><br>`setup.py:168`<br><sub><code>self.private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:253`<br><sub><code>self.ca_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:263`<br><sub><code>srv_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)</code></sub><br><br>`setup.py:14`<br><sub><code>from cryptography.hazmat.primitives.asymmetric import rsa</code></sub> |
-| **`private-key@0ad34dfa-b3eb-4d18-849d-f2e834aae1e2`**<br><sub>private-key@0ad34dfa-b3eb-4d18-849d-f2e834aae1e2</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
+| **`private-key@9429d827-213b-472f-8c1e-8269a15542c8`**<br><sub>private-key@9429d827-213b-472f-8c1e-8269a15542c8</sub> | related-crypto-material / private-key | 2048 | **ML-DSA-65 / SLH-DSA X.509 Certificate & KMS Key Rotation** | First-Party Code (SAST/AST)<br>`setup.py` |
 
 ### 🔒 Classical Symmetric & Digest Assets
 
